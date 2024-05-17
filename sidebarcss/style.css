@@ -38,3 +38,57 @@ body{
     margin-left: 5px;
     color: black;
 }
+/* Small Devices */
+
+@media screen and  (max-width: 600px) {
+    .sidebar{
+        display: none;
+    }
+}
+       /* Normal Devices */
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+/*  Tablet Devices */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+ .container{
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+ }
+ .card{
+     width: 200px;
+     margin-left: 40px;
+     margin-top: 150px;
+ }
+}
+
+@media screen and (min-width:993px) and (max-width: 1200px) {
+ .container{
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+ }
+ .card{
+     width: 250px;
+     margin-left: 80px;
+     margin-top: 200px;
+ }
+}
+
+/* Dekstop device */
+
+@media screen and  (max-width: 1200px) {
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+     flex-wrap: wrap;
+ }
+
+}
