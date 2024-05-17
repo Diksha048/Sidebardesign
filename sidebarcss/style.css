@@ -1,0 +1,12 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+}
+.sidebar{
+    background-color: antiquewhite;
+    width: 200px;
+}
+.content{
+    background-color: aqua;
+    width: 100%;
+}
