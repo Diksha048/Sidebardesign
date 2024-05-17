@@ -23,6 +23,10 @@ body{
     align-items: center;
     padding: 5px 20px 10px ;
     cursor: pointer;
+    text-decoration: none;
+}
+.active-menu{
+    background-color: #d4d4aa;
 }
 .menu-item:hover{
     background-color: #d4d4aa;
@@ -32,4 +36,5 @@ body{
 }
 .menu-text{
     margin-left: 5px;
+    color: black;
 }
