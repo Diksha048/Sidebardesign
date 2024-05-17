@@ -1,12 +1,35 @@
-.container{
+body{
+    margin: 0;
+    padding: 0;
+}.container{
     min-height: 100vh;
     display: flex;
 }
 .sidebar{
-    background-color: antiquewhite;
+    background-color: #e0e0d1;
     width: 200px;
 }
 .content{
-    background-color: aqua;
     width: 100%;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu-item{
+    background-color: #999966;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px 10px ;
+    cursor: pointer;
+}
+.menu-item:hover{
+    background-color: #d4d4aa;
+}
+.menu-icon{
+     height: 20px;
+}
+.menu-text{
+    margin-left: 5px;
 }
