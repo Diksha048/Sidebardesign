@@ -72,6 +72,9 @@ body{
         color: black;
         margin: 5px;
       }
+      .active-menu{
+        background-color: #d4d4aa;
+    }
 }
        /* Normal Devices */
 
@@ -84,19 +87,21 @@ body{
         color: black;
         margin: 5px;
       }
+      .active-menu{
+        background-color: #d4d4aa;
+    }
 }
 
 /*  Tablet Devices */
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    .bottom-navigation-bar{
+    .pill-nav a{
         display: none;
     }
-    
 }
 /* Dekstop device */
 @media screen and (min-width:993px) and (max-width: 1200px) {
-    .bottom-navigation-bar{
+    .pill-nav a{
         display: none;
     }
 }
